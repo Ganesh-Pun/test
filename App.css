@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.button{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0.5rem;
+  background: linear-gradient(98.63deg, #26dbbd 0%, #9b90c3 100%);
+  transition: all 150ms ease-out;
+
+}
+
+
+.button:hover{
+  cursor: pointer;
+  color:  blue;
+  font-weight: 800;
+  background: transparent;
+  border: 2px solid  #0adfbf;
+}
+
+.userIcon{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: 900;
+  background-color: aquamarine;
+}
+
+#logoG{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.nav-link>abbr{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar-brand>abbr{
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
